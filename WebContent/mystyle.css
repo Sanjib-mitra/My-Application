@@ -1,0 +1,35 @@
+
+div.div2{
+	float:right;
+	margin-top: 200px;  
+    margin-bottom: 20px;  
+    margin-right: 20px;  
+    margin-left: 20px; 
+	border: 5px;
+	background-color: aqua;
+	padding: 10px;
+	height: 150px;
+	width: 300px;
+}
+div.div1{
+	float:left;;
+	margin-top: 20px;  
+    margin-bottom: 20px;  
+    margin-right: 20px;  
+    margin-left: 20px; 
+	border: 10px;
+	padding: 10px;
+	background-color: olive;
+	
+	height: 150px;
+	width: 300px;
+}
+body{
+	background-color: olive;
+	background-image: url("library2.jpg");
+	text-align: justify;
+}
+div.li{
+	color: aqua;
+}
+h1.h1{color: orange;}

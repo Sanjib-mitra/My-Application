@@ -1,0 +1,22 @@
+<head>
+<style type="text/css">
+form{display: table;}
+div{display: table-row;}
+label { display: table-cell; }
+input { display: table-cell;}
+</style>
+</head>
+<h3>Return Book Form</h3>
+<body style="background-color: silver;">
+  <form action="ReturnBook" method="post" style="width:300px">
+  <div class="form-group">
+    <label for="callno1">Callno</label>
+    <input type="text" name="callno" id="callno1" placeholder="Callno"/>
+  </div>
+  <div class="form-group">
+    <label for="studentid1">Student Id</label>
+    <input type="text"  name="studentid" id="studentid1" placeholder="StudentId"/>
+  </div>
+  <button type="submit">Return Book</button>
+</form>
+</body>
